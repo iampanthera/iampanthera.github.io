@@ -23,7 +23,7 @@ const greeting = {
   username: "Talha Akram",
   title: "Hi all, I'm Talha",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Python / Reactjs / Nodejs / React Native / and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Python / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1cCQ7VzaVtLgAEUGJqUaAmwKr_49HkZRy/view?usp=sharing", // Set to empty to hide the button
@@ -367,7 +367,7 @@ const blogSection = {
   //       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
   //   }
   // ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
