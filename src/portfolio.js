@@ -158,11 +158,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -176,9 +176,9 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "Devsinc",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/devsinc.png"),
       date: "Sep 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Leading a 5+ member development team, collaborating with 4 clients to successfully create web applications from inception.",
         "Designed RESTful APIs to enhance front-end and back-end communication, improving user experiences and data integrity.",
@@ -193,30 +193,30 @@ const workExperiences = {
     {
       role: "Fullstack Developer",
       company: "Ideaonic",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/ideaonic.jpeg"),
       date: "April 2019 – Aug 2020",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
-          "Spearheaded the ideation, development, and successful implementation of innovative features, contributing to a 25% increase in user engagement and satisfaction.",
-          "Implemented strategic optimizations to enhance system performance, resulting in a 20% improvement in application responsiveness and scalability.",
-          "Proactively engaged in ongoing learning and skill development, staying abreast of industry trends and incorporating emerging technologies, resulting in a 20% increase in team capabilities.",
-          "Introduced and automated robust testing procedures, leading to a 25% reduction in post-release bugs and ensuring high-quality deliverables for clients.",
-          "Overhauled the obsolete legacy source code of two production applications, resulting in high usability and reduced run time performance by 50%"
+        "Spearheaded the ideation, development, and successful implementation of innovative features, contributing to a 25% increase in user engagement and satisfaction.",
+        "Implemented strategic optimizations to enhance system performance, resulting in a 20% improvement in application responsiveness and scalability.",
+        "Proactively engaged in ongoing learning and skill development, staying abreast of industry trends and incorporating emerging technologies, resulting in a 20% increase in team capabilities.",
+        "Introduced and automated robust testing procedures, leading to a 25% reduction in post-release bugs and ensuring high-quality deliverables for clients.",
+        "Overhauled the obsolete legacy source code of two production applications, resulting in high usability and reduced run time performance by 50%"
       ]
     },
     {
       role: "Freelance/Contractor",
       company: "",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/freelancer.jpeg"),
       date: "Feb 2018 – March 2019",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      descBullets:  [
-          "Developed mobile and web apps using (MERN), Typescript, serverless, AWS services.",
-          "Built features for ui library that's being used for multiple FE apps",
-          "Devised a solution for paginated queries. Also built a generic pagination hook in React.",
-          "Worked on graphs using apache e-charts",
-          "Enhanced ux of some screens by reducing friction points and updating design.",
-          "Worked with a scrum team planning sprints as well as providing demos weekly."
+      descBullets: [
+        "Developed mobile and web apps using (MERN), Typescript, serverless, AWS services.",
+        "Built features for ui library that's being used for multiple FE apps",
+        "Devised a solution for paginated queries. Also built a generic pagination hook in React.",
+        "Worked on graphs using apache e-charts",
+        "Enhanced ux of some screens by reducing friction points and updating design.",
+        "Worked with a scrum team planning sprints as well as providing demos weekly."
       ]
     }
   ]
@@ -237,9 +237,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo_b_v4.png"),
+      projectName: "Foriio",
+      projectDesc: `Foriio is a portfolio platform for creative professionals`,
       footerLink: [
         {
           name: "Visit Website",
@@ -249,18 +249,40 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/kangrooHealth.png"),
+      projectName: "KangarooHealth",
+      projectDesc: `Mobile-first remote patient monitoring platform.`,
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.foriio.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kudo-logo-header.png"),
+      projectName: "Kudoway",
+      projectDesc: `KUDO is a real-time language interpretation platform.`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.foriio.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kallidus-logo.png"),
+      projectName: "Kallidus [Sapling]",
+      projectDesc: `Full-stack HR and L&D software.`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.foriio.com/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
